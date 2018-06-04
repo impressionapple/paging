@@ -1,0 +1,27 @@
+{
+  "name": "paging",
+  "version": "0.0.1",
+  "summary": "分页功能",
+  "description": "完成定时分页功能",
+  "homepage": "https://github.com/impressionapple/paging.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1145821676@qq.com": "1145821676@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/impressionapple/paging.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "paging/Classes/**/*",
+  "resource_bundles": {
+    "paging": [
+      "paging/Classes/**/*.xib"
+    ]
+  }
+}

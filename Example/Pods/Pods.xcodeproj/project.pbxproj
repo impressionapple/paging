@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E25C7EEE8073459DE0AD801F0637D5 /* paging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E527E34BB3599F2F7A741178DFA78BE8 /* paging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8580D623885284BB6139FBF7ED65C8 /* XMGPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38F557F1A8CA5AB62AE02538B4D9D3 /* XMGPageView.m */; };
+		2FB54ECB27A438DCCFA3153509BC28C7 /* XMGPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C7B6DFFBC986D5DC44A9712D37A4BB /* XMGPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		703D6D39AB0ABFA240B477CD89FEAA11 /* Pods-paging_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86083BEAABFC79AE8E479CE83BD631D9 /* Pods-paging_Example-dummy.m */; };
+		75203FC43962C6D817081026B885D821 /* paging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9294815193EFAF4E62CDB1AC4BCA2 /* paging-dummy.m */; };
+		88C0FFC6A166A012A84008A02A05C19E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F4672A450BF6A4B389DF498DFD91A82 /* XMGPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95CDD51FF298FB7B92F9F8F36804101B /* XMGPageView.xib */; };
+		918CC1F41361F8B2DF5A437062605844 /* Pods-paging_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB747455E0C7AD242310464C17BABE22 /* Pods-paging_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C8BD20CC8122330F27CA8FD2F689CF /* Pods-paging_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCF72ABA510E3311D1D5D37C528DDDC /* Pods-paging_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A98A2BE39BB33066D9079A5DA39ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A36DF9E7595C7E42D6429F18B21BC09B /* XMGPageView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 95CDD51FF298FB7B92F9F8F36804101B /* XMGPageView.xib */; };
+		BA1DBBE8322D7A217595841BF634C4E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BDCC838ED7A9FDC9EFA1AB7DE80A62B2 /* paging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E7AEEB3AC81394A8134479927F0C7BC /* paging.bundle */; };
+		D840B4A0E6C1367D5FBE240E569DAB3C /* Pods-paging_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F77E9145F3DAF688ED00CCC258B51716 /* Pods-paging_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593F392650FCA9A17B9683316D5171F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DE691BAAC77AB5B4787D55A09595E7;
+			remoteInfo = "paging-paging";
+		};
+		94B3D482125598500820BB3139399E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9C66178DEAAB3E9A52EA7460F7F40E;
+			remoteInfo = paging;
+		};
+		B949364A7810E8105413FFAA31341C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE48E882B15AE5CD81BCF3B4DE4121B;
+			remoteInfo = "Pods-paging_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0841A898D1010AC642B11C7FFE9003C0 /* Pods-paging_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-paging_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0D4C7E84A193CD2D577A05BB90D5D9A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152F7D8A0755E54CAD14B1FC5B70B69E /* Pods-paging_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-paging_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		176B70CFA56AD63A7A14B5DC9F22B2A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		238B331C20812F53E413B7F2A8E405F2 /* paging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = paging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD08A26C09F7E9748860ABE22D92C53 /* Pods-paging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-paging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE0F2CECE5606B690FD0A4D1ED6BD96 /* ResourceBundle-paging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-paging-Info.plist"; sourceTree = "<group>"; };
+		2E7AEEB3AC81394A8134479927F0C7BC /* paging.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paging.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		32791BB8806C298F160ED756EC8ED489 /* Pods-paging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-paging_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		33496A59A07403C18B5B0DCF8746F416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A306CB23FF66530B871989BC136A82 /* Pods_paging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C7B6DFFBC986D5DC44A9712D37A4BB /* XMGPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGPageView.h; path = paging/Classes/XMGPageView.h; sourceTree = "<group>"; };
+		3561E764F5EF55A2C03FF84A597D93CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5DE8467138AD8EBB0E725A3CB4192519 /* Pods-paging_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-paging_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5ED04C04AE64398E280979AC12BFA38F /* Pods-paging_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-paging_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A38F557F1A8CA5AB62AE02538B4D9D3 /* XMGPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGPageView.m; path = paging/Classes/XMGPageView.m; sourceTree = "<group>"; };
+		6B207C2D42FC3780158DAA9AEE54BC2C /* Pods-paging_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-paging_Example-resources.sh"; sourceTree = "<group>"; };
+		6D8B65A77B07B0CD340C7ECEF5EDC382 /* Pods-paging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-paging_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B910308B8A01F590CD3312F4385FD2F /* Pods-paging_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-paging_Tests.modulemap"; sourceTree = "<group>"; };
+		7DB10A07AAC6F96B94B09469F589EF4B /* Pods-paging_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-paging_Tests-resources.sh"; sourceTree = "<group>"; };
+		86083BEAABFC79AE8E479CE83BD631D9 /* Pods-paging_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-paging_Example-dummy.m"; sourceTree = "<group>"; };
+		8CC2334237E5930E1C2CBBA2FD1058CA /* Pods_paging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6E224A06C1FBCCD246A80B806D10F1 /* paging.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = paging.podspec; sourceTree = "<group>"; };
+		9356769C2B607B23E46A1096A3EADFE5 /* Pods-paging_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-paging_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CDD51FF298FB7B92F9F8F36804101B /* XMGPageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = XMGPageView.xib; path = paging/Classes/XMGPageView.xib; sourceTree = "<group>"; };
+		C172BD40A76B1874C33F4B2871A190F2 /* paging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = paging.modulemap; sourceTree = "<group>"; };
+		CAE7DF43B702EDEC4AC7ED20672D5366 /* Pods-paging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-paging_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CBFF4DA9ADD8060556B8EEB2137C4709 /* Pods-paging_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-paging_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D358B3982FA7C4F9C55C5E64D52BB67A /* Pods-paging_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-paging_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7AD66B6FFC0A79835210D14F3DA2A30 /* paging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paging-prefix.pch"; sourceTree = "<group>"; };
+		E041E717FF6DF3356FFF288891443898 /* paging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = paging.xcconfig; sourceTree = "<group>"; };
+		E0619B34E050BF79AF87AF21ABD424D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E527E34BB3599F2F7A741178DFA78BE8 /* paging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paging-umbrella.h"; sourceTree = "<group>"; };
+		F77E9145F3DAF688ED00CCC258B51716 /* Pods-paging_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-paging_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB747455E0C7AD242310464C17BABE22 /* Pods-paging_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-paging_Example-umbrella.h"; sourceTree = "<group>"; };
+		FBF9294815193EFAF4E62CDB1AC4BCA2 /* paging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "paging-dummy.m"; sourceTree = "<group>"; };
+		FCCF72ABA510E3311D1D5D37C528DDDC /* Pods-paging_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-paging_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36962441D125477C4F006A2968CA6990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A98A2BE39BB33066D9079A5DA39ED5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6842C862D62EA1218D0BD1DC48E97C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DBBE8322D7A217595841BF634C4E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EFE2F1BCAABF1CCC227713CB7E2D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C0FFC6A166A012A84008A02A05C19E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0937FEAB489C8FAFFFF1B3E533C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078E7B48E8B5FB9FE416C813B5F3CEF9 /* Pods-paging_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E0619B34E050BF79AF87AF21ABD424D0 /* Info.plist */,
+				9356769C2B607B23E46A1096A3EADFE5 /* Pods-paging_Example.modulemap */,
+				152F7D8A0755E54CAD14B1FC5B70B69E /* Pods-paging_Example-acknowledgements.markdown */,
+				5ED04C04AE64398E280979AC12BFA38F /* Pods-paging_Example-acknowledgements.plist */,
+				86083BEAABFC79AE8E479CE83BD631D9 /* Pods-paging_Example-dummy.m */,
+				5DE8467138AD8EBB0E725A3CB4192519 /* Pods-paging_Example-frameworks.sh */,
+				6B207C2D42FC3780158DAA9AEE54BC2C /* Pods-paging_Example-resources.sh */,
+				FB747455E0C7AD242310464C17BABE22 /* Pods-paging_Example-umbrella.h */,
+				32791BB8806C298F160ED756EC8ED489 /* Pods-paging_Example.debug.xcconfig */,
+				CAE7DF43B702EDEC4AC7ED20672D5366 /* Pods-paging_Example.release.xcconfig */,
+			);
+			name = "Pods-paging_Example";
+			path = "Target Support Files/Pods-paging_Example";
+			sourceTree = "<group>";
+		};
+		11744E22A8F8622C11ACA571A45C7667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E7AEEB3AC81394A8134479927F0C7BC /* paging.bundle */,
+				238B331C20812F53E413B7F2A8E405F2 /* paging.framework */,
+				34A306CB23FF66530B871989BC136A82 /* Pods_paging_Example.framework */,
+				8CC2334237E5930E1C2CBBA2FD1058CA /* Pods_paging_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6039971EE911E155B214263DA5C1A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33496A59A07403C18B5B0DCF8746F416 /* Info.plist */,
+				C172BD40A76B1874C33F4B2871A190F2 /* paging.modulemap */,
+				E041E717FF6DF3356FFF288891443898 /* paging.xcconfig */,
+				FBF9294815193EFAF4E62CDB1AC4BCA2 /* paging-dummy.m */,
+				D7AD66B6FFC0A79835210D14F3DA2A30 /* paging-prefix.pch */,
+				E527E34BB3599F2F7A741178DFA78BE8 /* paging-umbrella.h */,
+				2DE0F2CECE5606B690FD0A4D1ED6BD96 /* ResourceBundle-paging-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/paging";
+			sourceTree = "<group>";
+		};
+		335CDDF1A381B0207C3C12FB84F03DBA /* Pods-paging_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4C7E84A193CD2D577A05BB90D5D9A8 /* Info.plist */,
+				7B910308B8A01F590CD3312F4385FD2F /* Pods-paging_Tests.modulemap */,
+				D358B3982FA7C4F9C55C5E64D52BB67A /* Pods-paging_Tests-acknowledgements.markdown */,
+				CBFF4DA9ADD8060556B8EEB2137C4709 /* Pods-paging_Tests-acknowledgements.plist */,
+				F77E9145F3DAF688ED00CCC258B51716 /* Pods-paging_Tests-dummy.m */,
+				0841A898D1010AC642B11C7FFE9003C0 /* Pods-paging_Tests-frameworks.sh */,
+				7DB10A07AAC6F96B94B09469F589EF4B /* Pods-paging_Tests-resources.sh */,
+				FCCF72ABA510E3311D1D5D37C528DDDC /* Pods-paging_Tests-umbrella.h */,
+				2DD08A26C09F7E9748860ABE22D92C53 /* Pods-paging_Tests.debug.xcconfig */,
+				6D8B65A77B07B0CD340C7ECEF5EDC382 /* Pods-paging_Tests.release.xcconfig */,
+			);
+			name = "Pods-paging_Tests";
+			path = "Target Support Files/Pods-paging_Tests";
+			sourceTree = "<group>";
+		};
+		57B885279B00F949AEBA0664C5F43A05 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				078E7B48E8B5FB9FE416C813B5F3CEF9 /* Pods-paging_Example */,
+				335CDDF1A381B0207C3C12FB84F03DBA /* Pods-paging_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7874FFEE37CA8C23E8B0560420F7EEFA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93AA3FF6369C79F1F2F9CEAB9E873A2F /* paging */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7874FFEE37CA8C23E8B0560420F7EEFA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				11744E22A8F8622C11ACA571A45C7667 /* Products */,
+				57B885279B00F949AEBA0664C5F43A05 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		911E1958A5ECE75B39EFAE6E0E4687F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93AA3FF6369C79F1F2F9CEAB9E873A2F /* paging */ = {
+			isa = PBXGroup;
+			children = (
+				34C7B6DFFBC986D5DC44A9712D37A4BB /* XMGPageView.h */,
+				6A38F557F1A8CA5AB62AE02538B4D9D3 /* XMGPageView.m */,
+				95CDD51FF298FB7B92F9F8F36804101B /* XMGPageView.xib */,
+				D0DA78BEEA7FAF065FCF05974F24E8C3 /* Pod */,
+				911E1958A5ECE75B39EFAE6E0E4687F2 /* Resources */,
+				2D6039971EE911E155B214263DA5C1A7 /* Support Files */,
+			);
+			name = paging;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0DA78BEEA7FAF065FCF05974F24E8C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3561E764F5EF55A2C03FF84A597D93CE /* LICENSE */,
+				8E6E224A06C1FBCCD246A80B806D10F1 /* paging.podspec */,
+				176B70CFA56AD63A7A14B5DC9F22B2A0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03E68E0F1B7EC30688BC9809CEE44EF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918CC1F41361F8B2DF5A437062605844 /* Pods-paging_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF53DB3E3A0269298934D743BA7CEB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C8BD20CC8122330F27CA8FD2F689CF /* Pods-paging_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B2C6FFBD17043062251E4F8FF65287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E25C7EEE8073459DE0AD801F0637D5 /* paging-umbrella.h in Headers */,
+				2FB54ECB27A438DCCFA3153509BC28C7 /* XMGPageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04DE691BAAC77AB5B4787D55A09595E7 /* paging-paging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A566508EB11FC0BC4ADEC886985FC30 /* Build configuration list for PBXNativeTarget "paging-paging" */;
+			buildPhases = (
+				86D269A62CFE5CEA4BE5082D7585D1F4 /* Sources */,
+				D0C0937FEAB489C8FAFFFF1B3E533C22 /* Frameworks */,
+				CEA273A9CE0AE138612A3250E2C23ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paging-paging";
+			productName = "paging-paging";
+			productReference = 2E7AEEB3AC81394A8134479927F0C7BC /* paging.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5D9C66178DEAAB3E9A52EA7460F7F40E /* paging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0644561C67DCCB1710345A374F2088EC /* Build configuration list for PBXNativeTarget "paging" */;
+			buildPhases = (
+				FF049AA3B8D469AE3A14590D0FCF645B /* Sources */,
+				6842C862D62EA1218D0BD1DC48E97C0D /* Frameworks */,
+				47E1F6B2A8DFEC377BA7B3F5048ED4FF /* Resources */,
+				F8B2C6FFBD17043062251E4F8FF65287 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED26AD943471DBCC54DDB9CB40EAC43D /* PBXTargetDependency */,
+			);
+			name = paging;
+			productName = paging;
+			productReference = 238B331C20812F53E413B7F2A8E405F2 /* paging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AE48E882B15AE5CD81BCF3B4DE4121B /* Pods-paging_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED48BC87942621DAA2E983A911275F6 /* Build configuration list for PBXNativeTarget "Pods-paging_Example" */;
+			buildPhases = (
+				7930A774964F030B9FD38AC655F2AFD8 /* Sources */,
+				72EFE2F1BCAABF1CCC227713CB7E2D7F /* Frameworks */,
+				03E68E0F1B7EC30688BC9809CEE44EF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7112AFB5AB6F3FF2CB05869DBB9869B /* PBXTargetDependency */,
+			);
+			name = "Pods-paging_Example";
+			productName = "Pods-paging_Example";
+			productReference = 34A306CB23FF66530B871989BC136A82 /* Pods_paging_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD728FCD470F851A74A76D7FF0112925 /* Pods-paging_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71428FBB45C9B385B61E6821FFBDAA97 /* Build configuration list for PBXNativeTarget "Pods-paging_Tests" */;
+			buildPhases = (
+				A9AE7BD789C6766769BD7ACFC2BF2366 /* Sources */,
+				36962441D125477C4F006A2968CA6990 /* Frameworks */,
+				DAF53DB3E3A0269298934D743BA7CEB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D3C78DC0EF8E4A55F8D68F91E3421B /* PBXTargetDependency */,
+			);
+			name = "Pods-paging_Tests";
+			productName = "Pods-paging_Tests";
+			productReference = 8CC2334237E5930E1C2CBBA2FD1058CA /* Pods_paging_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 11744E22A8F8622C11ACA571A45C7667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D9C66178DEAAB3E9A52EA7460F7F40E /* paging */,
+				04DE691BAAC77AB5B4787D55A09595E7 /* paging-paging */,
+				6AE48E882B15AE5CD81BCF3B4DE4121B /* Pods-paging_Example */,
+				DD728FCD470F851A74A76D7FF0112925 /* Pods-paging_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E1F6B2A8DFEC377BA7B3F5048ED4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCC838ED7A9FDC9EFA1AB7DE80A62B2 /* paging.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA273A9CE0AE138612A3250E2C23ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4672A450BF6A4B389DF498DFD91A82 /* XMGPageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7930A774964F030B9FD38AC655F2AFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D6D39AB0ABFA240B477CD89FEAA11 /* Pods-paging_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D269A62CFE5CEA4BE5082D7585D1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE7BD789C6766769BD7ACFC2BF2366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D840B4A0E6C1367D5FBE240E569DAB3C /* Pods-paging_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF049AA3B8D469AE3A14590D0FCF645B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75203FC43962C6D817081026B885D821 /* paging-dummy.m in Sources */,
+				2E8580D623885284BB6139FBF7ED65C8 /* XMGPageView.m in Sources */,
+				A36DF9E7595C7E42D6429F18B21BC09B /* XMGPageView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66D3C78DC0EF8E4A55F8D68F91E3421B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-paging_Example";
+			target = 6AE48E882B15AE5CD81BCF3B4DE4121B /* Pods-paging_Example */;
+			targetProxy = B949364A7810E8105413FFAA31341C8D /* PBXContainerItemProxy */;
+		};
+		C7112AFB5AB6F3FF2CB05869DBB9869B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = paging;
+			target = 5D9C66178DEAAB3E9A52EA7460F7F40E /* paging */;
+			targetProxy = 94B3D482125598500820BB3139399E18 /* PBXContainerItemProxy */;
+		};
+		ED26AD943471DBCC54DDB9CB40EAC43D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paging-paging";
+			target = 04DE691BAAC77AB5B4787D55A09595E7 /* paging-paging */;
+			targetProxy = 593F392650FCA9A17B9683316D5171F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F1CEF72129D594AEF7512B7E64B93A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE7DF43B702EDEC4AC7ED20672D5366 /* Pods-paging_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-paging_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-paging_Example/Pods-paging_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39D0F14250AE94D443F9B29C059F07CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E041E717FF6DF3356FFF288891443898 /* paging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/paging";
+				INFOPLIST_FILE = "Target Support Files/paging/ResourceBundle-paging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = paging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		58D1001CEB902C4395B19C3855834B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8B65A77B07B0CD340C7ECEF5EDC382 /* Pods-paging_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-paging_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-paging_Tests/Pods-paging_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7594AD7036AC08049A903710CA4856CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E041E717FF6DF3356FFF288891443898 /* paging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paging/paging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/paging/paging.modulemap";
+				PRODUCT_MODULE_NAME = paging;
+				PRODUCT_NAME = paging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		867061B58274CD0AD48382127641EF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E041E717FF6DF3356FFF288891443898 /* paging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/paging";
+				INFOPLIST_FILE = "Target Support Files/paging/ResourceBundle-paging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = paging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C9589D033867C1BA530F2DD686B70DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD08A26C09F7E9748860ABE22D92C53 /* Pods-paging_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-paging_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-paging_Tests/Pods-paging_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C00DF1D327EA49F7DCAE8947D7FAF84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32791BB8806C298F160ED756EC8ED489 /* Pods-paging_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-paging_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-paging_Example/Pods-paging_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5568077A3F7709286D31A6E8A78D162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E041E717FF6DF3356FFF288891443898 /* paging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paging/paging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/paging/paging.modulemap";
+				PRODUCT_MODULE_NAME = paging;
+				PRODUCT_NAME = paging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0644561C67DCCB1710345A374F2088EC /* Build configuration list for PBXNativeTarget "paging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7594AD7036AC08049A903710CA4856CE /* Debug */,
+				F5568077A3F7709286D31A6E8A78D162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A566508EB11FC0BC4ADEC886985FC30 /* Build configuration list for PBXNativeTarget "paging-paging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D0F14250AE94D443F9B29C059F07CD /* Debug */,
+				867061B58274CD0AD48382127641EF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71428FBB45C9B385B61E6821FFBDAA97 /* Build configuration list for PBXNativeTarget "Pods-paging_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9589D033867C1BA530F2DD686B70DD /* Debug */,
+				58D1001CEB902C4395B19C3855834B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED48BC87942621DAA2E983A911275F6 /* Build configuration list for PBXNativeTarget "Pods-paging_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00DF1D327EA49F7DCAE8947D7FAF84B /* Debug */,
+				2F1CEF72129D594AEF7512B7E64B93A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

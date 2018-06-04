@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		500C0A4D89A9126364A7D697 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		500C0A4D89A9126364A7D697 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* paging_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paging_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +59,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62183111105EA789498A39BA /* Pods_paging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A74A5021323665647D949F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7A74A5021323665647D949F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C4FF9872CBEF42EF95C4F15 /* Pods-paging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paging_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-paging_Tests/Pods-paging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A4F016BE7DB563B360E0AC /* Pods-paging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paging_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-paging_Example/Pods-paging_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3B49CED2F90552C0ED7B26B /* Pods-paging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paging_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-paging_Tests/Pods-paging_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CAEE6E183FEBD12478017E7F /* Pods-paging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paging_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-paging_Example/Pods-paging_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D17917CFCA19A9F5EBD375ED /* paging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = paging.podspec; path = ../paging.podspec; sourceTree = "<group>"; };
+		D17917CFCA19A9F5EBD375ED /* paging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = paging.podspec; path = ../paging.podspec; sourceTree = "<group>"; };
 		ECE209E93724794092A9E42E /* Pods_paging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

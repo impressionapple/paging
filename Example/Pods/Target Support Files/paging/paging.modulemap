@@ -1,0 +1,6 @@
+framework module paging {
+  umbrella header "paging-umbrella.h"
+
+  export *
+  module * { export * }
+}

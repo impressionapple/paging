@@ -1,0 +1,6 @@
+framework module Pods_paging_Example {
+  umbrella header "Pods-paging_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,9 +7,10 @@
 //
 
 #import "lwqViewController.h"
-
+#import "XMGPageView.h"
 @interface lwqViewController ()
-
+/** 分页控件 */
+@property (nonatomic, strong) XMGPageView *pageView;
 @end
 
 @implementation lwqViewController
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    XMGPageView *pageView = [XMGPageView pageView];
+    pageView.frame = CGRectMake(37, 50, 300, 130);
+    pageView.imageNames = @[@"img_00", @"img_01", @"img_02", @"img_03", @"img_04"];
+    pageView.otherColor = [UIColor grayColor];
+    pageView.currentColor = [UIColor orangeColor];
+    [self.view addSubview:pageView];
+    self.pageView = pageView;
 }
 
 - (void)didReceiveMemoryWarning
