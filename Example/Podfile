@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'paging_Example' do
+  pod 'paging', :path => '../'
+
+  target 'paging_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
